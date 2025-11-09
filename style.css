@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Doto";
+  src: url("Doto/Doto-VariableFont_ROND\,wght.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+nav {
+  margin: 0%;
+  padding: 0;
+  padding-left: 1rem;
+  top: 0%;
+  left: 0%;
+  position: static;
+  display: flex;
+  background-color: #adebb3;
+  width: 100vw;
+}
+
+.center {
+  margin: 0%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+nav h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+h1.title {
+  font-family: "Doto";
+  font-weight: 1000;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  /* font-weight: 800; */
+}
+
+p {
+  font-family: "Montserrat";
+  font-size: 2rem;
+  /* font-weight: 800; */
+}
