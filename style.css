@@ -8,9 +8,16 @@
   src: url("Montserrat/Montserrat-VariableFont_wght.ttf");
 }
 
+html,
 body {
-  margin: 0%;
-  padding: 0%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 1fr auto;
 }
 
 nav {
@@ -22,12 +29,12 @@ nav {
   position: static;
   display: flex;
   background-color: #adebb3;
-  width: 100vw;
+  width: 100%;
 }
 
 .center {
   margin: 0%;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -52,4 +59,69 @@ p {
   font-family: "Montserrat";
   font-size: 2rem;
   /* font-weight: 800; */
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-family: "Montserrat";
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+li small {
+  font-weight: normal;
+}
+
+button {
+  font-family: "Montserrat";
+  background-color: #189e2f;
+  color: white;
+  font-size: 2rem;
+  border-color: black;
+  border-width: 3px;
+  padding: 10x;
+  border-style: solid;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: 400ms;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #2ed93f;
+  transform: scale(110%);
+}
+
+button:active {
+  transform: scale(95%);
+  background-color: #29c839;
+}
+
+footer {
+  margin: 0%;
+  margin-top: 5rem;
+  bottom: 0%;
+  left: 0%;
+  display: block;
+  background-color: #2f2f2f;
+  width: 100%;
+}
+
+footer h1 {
+  color: rgb(219, 219, 219);
+  font-size: 2rem;
+  margin: 0.4rem;
+}
+footer p {
+  color: rgb(219, 219, 219);
+  font-size: 1rem;
+  margin: 0.4rem;
+}
+
+footer a {
+  color: rgb(219, 219, 219);
 }
