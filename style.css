@@ -62,6 +62,12 @@ p {
   /* font-weight: 800; */
 }
 
+p,
+li {
+  overflow-wrap: break-word; /* Allows long words/emails to wrap */
+  word-break: break-word; /* Extra support */
+}
+
 ul {
   list-style: none;
 }
